@@ -44,3 +44,16 @@ else{
     console.log("F")
 }
 
+//------------Switch statement------------
+let num =3 
+switch(num){
+    case 1 : console.log("Aa")
+    break;
+    case 2 : console.log("Bb")
+    break;
+    case 3 : console.log("Cc")
+    break;
+    case 4 : console.log("Dd")
+    break;
+    default: console.log("Ff")
+}
