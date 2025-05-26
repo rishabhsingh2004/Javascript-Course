@@ -43,9 +43,9 @@ let numm = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
 let numm_more = [11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20]
 console.log(numm)
 console.log(numm.length)
-delete num[0]
+delete numm[0]
 console.log(numm)
-
+console.log(numm.length)
 // Concat array method------------
 let newArray = numm.concat(numm_more)
 console.log(newArray)
