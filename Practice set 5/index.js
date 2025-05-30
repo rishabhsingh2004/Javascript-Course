@@ -42,3 +42,4 @@ let a4 = arr4.reduce((a1 , a2)=>{
     return a1 * a2;
 })
 console.log(a4);
+//output: 120

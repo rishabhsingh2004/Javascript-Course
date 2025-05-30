@@ -1,0 +1,1 @@
+alert("Enter the name of person");

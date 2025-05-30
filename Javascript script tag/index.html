@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Script Tag Example</title>
+
+  <!-- ✅ External JS file linked in <head> using defer -->
+  <script src="script.js" defer></script>
+
+  <!-- ❗ Without defer, script runs before HTML is fully loaded (may cause errors) -->
+</head>
+<body>
+
+  <h1>Hello JavaScript!</h1>
+  <button onclick="sayHello()">Click Me</button>
+
+  <!-- ✅ Internal Script Example placed at end of body (best practice) -->
+  <script>
+    // This is internal JavaScript
+    function sayHello() {
+      alert("Hello from internal script!");
+    }
+  </script>
+
+  <!-- ✅ External Script Example -->
+  <script src="main.js"></script>
+</body>
+</html>
