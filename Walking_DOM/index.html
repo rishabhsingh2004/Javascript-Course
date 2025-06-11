@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Example</title>
+</head>
+<body>
+  <h1 id="myHeading">Hello!</h1>
+  <button onclick="changeText()">Click me</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("myHeading").innerText = "Welcome to DOM!"; // Change the text of the heading
+    }
+  </script>
+</body>
+</html>
+<!--👆 Here:
+
+document.getElementById("myHeading") accesses the <h1> tag.
+
+.innerText = "..." changes its text using JS. -->
+
+
