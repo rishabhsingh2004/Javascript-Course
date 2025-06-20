@@ -1,0 +1,12 @@
+.bulb {
+    background: #d9ff00;
+}
+
+.bulb-container{
+    width: 400px;
+    height: 400px;
+}
+ 
+body{
+    background-color: black;
+}

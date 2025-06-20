@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* background image with blur */
+body::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://media.istockphoto.com/id/1286565559/photo/view-for-hejnice-town-in-jizerske-mountains-in-sunny-autumn-day.jpg?s=2048x2048&w=is&k=20&c=WTVkdTwz3QTP1BnLXP2u2fqjYZUS03v9Dh_hzjtTx-o=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(6px);
+  z-index: -1;
+}
+
+
+
+
+#time {
+  font-size: 50px;
+  color: #61dafb;
+  background: #1c1e22;
+  padding: 30px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #61dafb80;
+}
