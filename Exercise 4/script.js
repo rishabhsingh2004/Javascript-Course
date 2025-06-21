@@ -1,18 +1,13 @@
-
-
-//   document.getElementById("hour").innerText = h.toString().padStart(2, "0");
-//   document.getElementById("minute").innerText = m.toString().padStart(2, "0");
-//   document.getElementById("second").innerText = s.toString().padStart(2, "0");
-//   document.getElementById("ampm").innerText = ampm;
+// Exercise 4: JavaScript Date and Time
 function getDateTime() {
         var now = new Date();
-        var year = now.getFullYear();
-        var month = now.getMonth() + 1;
-        var day = now.getDate();
-        var hour = now.getHours();
-        var minute = now.getMinutes();
-        var second = now.getSeconds();
-        if (month.toString().length == 1) {
+        var year = now.getFullYear();// get the full year (4 digits)
+        var month = now.getMonth() + 1;// get the month (0-11, so we add 1)
+        var day = now.getDate();// get the day of the month (1-31)
+        var hour = now.getHours();// get the hour (0-23)
+        var minute = now.getMinutes();// get the minutes (0-59)
+        var second = now.getSeconds();// get the seconds (0-59)
+        if (month.toString().length == 1) { 
                 month = '0' + month;
         }
         if (day.toString().length == 1) {
@@ -28,7 +23,7 @@ function getDateTime() {
                 second = '0' + second;
         }
         var dateTime = year + '/' + month + '/' + day + ' ' + hour + ':' + minute + ':' + second;
-        return dateTime;
+        return dateTime; // return the formatted date and time string
 }
 
 // example usage: realtime clock
