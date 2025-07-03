@@ -19,11 +19,11 @@ function loadScript(src, callback) {
   script.src = src;
   script.onload = function() {
     console.log("Loaded script with SRC: " + src)
-    callback(null, src);
+    callback(null, src); 
   }
   script.onerror = function() {
     console.log("Error loading script with SRC: " + src);
-    callback(new Error("Src got some error"))
+    callback(new Error("Src got some error")) // This is a Callback 
   }
   document.body.appendChild(script);
 }
