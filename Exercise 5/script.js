@@ -5,7 +5,7 @@ let a = [
         "Connection failed. Retrying...",
         "Connecting to server 2",
         "Connected Successfully...",
-        "Username iamharry...",
+        "Username vidhya...",
         "Trying Brute Force...",
         "200K passwords tried...",
         "Match not found",
@@ -21,7 +21,7 @@ let a = [
 
 const sleep = async (seconds) => {
         return new Promise((resolve, reject) => {
-                setTimeout(() => { resolve(true) }, seconds * 1000)
+                setTimeout(() => { resolve(true) }, seconds * 300)
         })
 }
 
