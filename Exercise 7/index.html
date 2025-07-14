@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Libertinus+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&family=Libertinus+Mono&family=Manufacturing+Consent&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Password Generator</h1>
+
+    <div>
+      <label for="strength"><h4>Strength :</h4></label>
+      <select id="strength">
+        <option value="normal"><b>Normal Password </b></option>
+        <option value="strong"><b>Strong Password </b></option>
+        <option value="super"> <b>Super Strong Password </b></option>
+      </select>
+    </div>
+
+    <div class="password-box" id="password">Click 'Generate'</div>
+
+    <div>
+      <button onclick="passwordGenerator.generate()" class="generate">Generate</button>
+      <button onclick="passwordGenerator.copy()" class="copy">Copy</button>
+    </div>
+
+    <div class="copy-msg" id="copyMsg"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
