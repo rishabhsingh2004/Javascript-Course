@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #212121;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#wrapper {
+  background-color: #2c2c2c;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #00ffcc;
+}
+
+p {
+  font-size: 15px;
+  margin: 6px 0;
+  white-space: nowrap;
+  padding: 0 1px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ddaa;
+  box-shadow: 0 1px 10px #ff5252
+}
+
+.resultParas {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+span.guesses {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+span.lastResult {
+  color: #ff5252;
+  font-weight: bold;
+}
+
+.lowOrHi {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 15px;
+  color: #7df9ff;
+}

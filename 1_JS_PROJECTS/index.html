@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chai aur Code - Projects</title>
+
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #212121;
+      color: #ffffff;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2e2e2e;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00d8ff;
+    }
+
+    /* Heading */
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #ffcc70;
+    }
+
+    /* Projects Grid */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-link {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .project-link:hover {
+      background-color: #00d8ff;
+      color: #000;
+       transform: translateY(-5px); 
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .project-link {
+        font-size: 0.95rem;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="/" aria-current="page" style="text-align: center;">Home(Go back to JS Folder)</a>
+    
+  </nav>
+
+  <main>
+    <h1>Rishabh Coder</h1>
+    <div class="projects">
+      <a class="project-link" href="http://127.0.0.1:3000/1_JS_PROJECTS/Project 1/index.html">Project 1 - Color Changer 🔥</a>
+      <a class="project-link" href="http://127.0.0.1:3000/1_JS_PROJECTS/Project 2/index.html">Project 2 - BMI Generator ☕️</a>
+      <a class="project-link" href="http://127.0.0.1:3000/1_JS_PROJECTS/Project 3/index.html">Project 3 - Digital Clock 😎</a>
+      <a class="project-link" href="4-GuessTheNumber/index.html">Project 4 - Guess the Number 🤨</a>
+      <a class="project-link" href="5-keyboard/index.html">Project 5 - Keyboard Check 👻</a>
+      <a class="project-link" href="6-unlimitedColors/index.html">Project 6 - Unlimited Colors 🧠</a>
+      <a class="project-link" href="7-scroll/index.html">Project 7 - Scroll like NextJS 👀</a>
+      <a class="project-link" href="8-typer/index.html">Project 8 - Typer Library 📚</a>
+      <a class="project-link" href="9-mouseCircle/index.html">Project 9 - Mouse Circle 🔵</a>
+      <a class="project-link" href="10-emoji/index.html">Project 10 - Emoji 🫥</a>
+      <a class="project-link" href="11-textEditor/index.html">Project 11 - Text Editor ✍️</a>
+      <a class="project-link" href="12-randomImage/index.html">Project 12 - Random Image 🌠</a>
+      <a class="project-link" href="13-jokes/index.html">Project 13 - Jokes 😂</a>
+      <a class="project-link" href="14-cats/index.html">Project 14 - Cats 🐈</a>
+      <a class="project-link" href="15-crudDom/index.html">Project 15 - DOM CRUD 📌</a>
+      <a class="project-link" href="16-debounce/index.html">Project 16 - Debouncing 🏀</a>
+    </div>
+  </main>
+</body>
+</html>
